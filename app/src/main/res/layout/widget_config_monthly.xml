@@ -29,7 +29,7 @@
         android:layout_toEndOf="@+id/config_bg_color"
         android:background="@android:color/white">
 
-        <com.simplemobiletools.commons.views.MySeekBar
+        <androidx.appcompat.widget.AppCompatSeekBar
             android:id="@+id/config_bg_seekbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

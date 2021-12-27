@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.simplemobiletools.commons.views.MyRecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/calendar_events_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,9 +15,9 @@
         android:paddingTop="@dimen/medium_margin"
         android:scrollbars="vertical"
         android:visibility="gone"
-        app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-    <com.simplemobiletools.commons.views.MyTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/calendar_empty_list_placeholder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

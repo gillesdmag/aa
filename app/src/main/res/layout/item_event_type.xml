@@ -16,7 +16,7 @@
         android:background="?attr/selectableItemBackground"
         android:padding="@dimen/activity_margin">
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_type_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

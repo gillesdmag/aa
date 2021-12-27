@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.simplemobiletools.commons.views.MyEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/event_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:textCursorDrawable="@null"
             android:textSize="@dimen/day_text_size" />
 
-        <com.simplemobiletools.commons.views.MyEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/event_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:padding="@dimen/small_margin"
             android:src="@drawable/ic_place_vector" />
 
-        <com.simplemobiletools.commons.views.MyEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/event_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             android:paddingEnd="@dimen/normal_margin"
             android:paddingBottom="@dimen/normal_margin">
 
-            <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+            <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/event_all_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
 
         </RelativeLayout>
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_start_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
             android:textSize="@dimen/day_text_size"
             tools:text="January 1 1970" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_start_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
             android:textSize="@dimen/day_text_size"
             tools:text="00:00" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_end_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
             android:textSize="@dimen/day_text_size"
             tools:text="January 1 1970" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_end_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -175,7 +175,7 @@
             android:padding="@dimen/medium_margin"
             android:src="@drawable/ic_globe_vector" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_time_zone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -212,7 +212,7 @@
             android:padding="@dimen/medium_margin"
             android:src="@drawable/ic_bell_vector" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_reminder_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
             android:padding="@dimen/activity_margin"
             android:src="@drawable/ic_bell_vector" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_reminder_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -272,7 +272,7 @@
             android:padding="@dimen/activity_margin"
             android:src="@drawable/ic_bell_vector" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_reminder_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -324,7 +324,7 @@
             android:padding="@dimen/medium_margin"
             android:src="@drawable/ic_repeat_vector" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_repetition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -347,7 +347,7 @@
             android:background="?attr/selectableItemBackground"
             android:visibility="gone">
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_repetition_rule_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -357,7 +357,7 @@
                 android:text="@string/repeat_on"
                 android:textSize="@dimen/day_text_size" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_repetition_rule"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -379,7 +379,7 @@
             android:background="?attr/selectableItemBackground"
             android:visibility="gone">
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_repetition_limit_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -390,7 +390,7 @@
                 android:text="@string/repeat_till"
                 android:textSize="@dimen/day_text_size" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_repetition_limit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -449,7 +449,7 @@
             android:padding="@dimen/medium_margin"
             android:src="@drawable/ic_event_busy_vector" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/event_availability"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -495,7 +495,7 @@
             android:background="?attr/selectableItemBackground"
             android:visibility="gone">
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_caldav_calendar_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -509,7 +509,7 @@
                 android:textSize="@dimen/day_text_size"
                 tools:text="My calendar" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_caldav_calendar_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -564,7 +564,7 @@
             android:layout_toEndOf="@+id/event_type_image"
             android:background="?attr/selectableItemBackground">
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/event_type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

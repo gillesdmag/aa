@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_top_corners">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/settings_customize_colors_label"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_bottom_corners">
 
-                <com.simplemobiletools.commons.views.MyTextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/settings_customize_widget_colors_label"
                     style="@style/SettingsTextLabelStyle"
                     android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/ripple_top_corners">
 
-                <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                <androidx.appcompat.widget.AppCompatCheckBox
                     android:id="@+id/settings_use_english"
                     style="@style/SettingsCheckboxStyle"
                     android:layout_width="match_parent"

@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:paddingTop="@dimen/activity_margin">
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/export_events_folder_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
             android:text="@string/folder"
             android:textSize="@dimen/smaller_text_size" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/export_events_folder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             android:padding="@dimen/small_margin"
             tools:text="Internal/" />
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/export_events_filename_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             android:text="@string/filename_without_ics"
             android:textSize="@dimen/smaller_text_size" />
 
-        <com.simplemobiletools.commons.views.MyEditText
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/export_events_filename"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
             android:paddingEnd="@dimen/activity_margin"
             android:paddingBottom="@dimen/normal_margin">
 
-            <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+            <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/export_past_events_checkbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                 android:background="@color/divider_grey"
                 android:importantForAccessibility="no" />
 
-            <com.simplemobiletools.commons.views.MyTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/export_events_pick_types_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -98,14 +98,14 @@
                 android:text="@string/include_event_types"
                 android:textSize="@dimen/smaller_text_size" />
 
-            <com.simplemobiletools.commons.views.MyRecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/export_events_types_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="false"
                 android:overScrollMode="never"
                 android:paddingTop="@dimen/medium_margin"
-                app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
         </LinearLayout>
     </LinearLayout>
